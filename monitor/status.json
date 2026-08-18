@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T19:24:53.973523Z",
+  "generated_at": "2026-08-18T19:26:13.021209Z",
   "overall": "online",
   "counts": {
     "online": 4,
@@ -14,8 +14,8 @@
       "repo": "GabrielGonzagaSilva/QuantoLab",
       "status": "online",
       "status_code": 200,
-      "latency_ms": 333,
-      "checked_at": "2026-08-18T19:24:51.300384Z",
+      "latency_ms": 497,
+      "checked_at": "2026-08-18T19:26:09.774645Z",
       "final_url": "https://quantolab.com.br/",
       "ssl": {
         "expires_at": "2026-11-11T22:48:03Z",
@@ -31,21 +31,15 @@
       "repo": "GabrielGonzagaSilva/aureum-hub",
       "status": "online",
       "status_code": 200,
-      "latency_ms": 711,
-      "checked_at": "2026-08-18T19:24:52.097907Z",
-      "final_url": "https://gabrielgonzagasilva.cloudflareaccess.com/cdn-cgi/access/login/aureum-hub-api.gabrielgonzagasilva.workers.dev?kid=fc9805ae25e6486c5e07fdfe2389c4afa236a189b4022d1112b46982a31ea538&meta=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjQ4MmYxNTFkMTA3NzE4OGU1ODc0N2VkODljN2YzNjU0MmRjNDcwYTgyYTZjOTJmOTQ2ZjI2MDg0NjVhYzMyOGEifQ.eyJ0eXBlIjoibWV0YSIsImF1ZCI6ImZjOTgwNWFlMjVlNjQ4NmM1ZTA3ZmRmZTIzODljNGFmYTIzNmExODliNDAyMmQxMTEyYjQ2OTgyYTMxZWE1MzgiLCJob3N0bmFtZSI6ImF1cmV1bS1odWItYXBpLmdhYnJpZWxnb256YWdhc2lsdmEud29ya2Vycy5kZXYiLCJyZWRpcmVjdF91cmwiOiIvYXBwLyIsInNlcnZpY2VfdG9rZW5fc3RhdHVzIjpmYWxzZSwiaXNfd2FycCI6ZmFsc2UsImlzX2dhdGV3YXkiOmZhbHNlLCJleHAiOjE3ODcwODEzOTIsIm5iZiI6MTc4NzA4MTA5MiwiaWF0IjoxNzg3MDgxMDkyLCJhdXRoX3N0YXR1cyI6Ik5PTkUiLCJtdGxzX2F1dGgiOnsiY2VydF9pc3N1ZXJfZG4iOiIiLCJjZXJ0X3NlcmlhbCI6IiIsImNlcnRfaXNzdWVyX3NraSI6IiIsImNlcnRfcHJlc2VudGVkIjpmYWxzZSwiY29tbW9uX25hbWUiOiIiLCJhdXRoX3N0YXR1cyI6Ik5PTkUifSwicmVhbF9jb3VudHJ5IjoiVVMiLCJhcHBfc2Vzc2lvbl9oYXNoIjoiOGMyNzcyMTI5NDliZTM1MjUyZjY4ZWJmYmMzM2UzMGJhOTY3N2I2NzZhNWMyOTRhYmMwMjk3M2U1MWE4MTQxMSJ9.QHThyhVOxwxokD9JqWKG6XihZy6-QKL-QoOx3pxpBVQY7wgnE1j54RmMtZ1fkAPUeo3EwqSDFMhWJlakdu8k97zst1VwZ24XWfYMlFq5DU5SbpND49Mscrv12hpTlO8t34bqw9mu5tkerSQuGI9ZRYagXiWtELs6KkDrQyulgQSCY1VHqnjEjR7LkOLzAu4rJDFqx-VPWHv4cSW45sOxMTdwjUvtv78szQk2MMWJGHhluwUpOM553fhaXQWB6_72LXM9uwvbU2JDDqbCixNVjoa37XkGbFPN3m9NH0gq082aylGfnGnLWTE_Ufs-EsXxFSQPm-bbsMnhfA9-tdGaXg&redirect_url=%2Fapp%2F",
+      "latency_ms": 859,
+      "checked_at": "2026-08-18T19:26:10.844272Z",
+      "final_url": "https://gabrielgonzagasilva.cloudflareaccess.com/cdn-cgi/access/login/aureum-hub-api.gabrielgonzagasilva.workers.dev",
       "ssl": {
         "expires_at": "2026-11-09T13:37:04Z",
         "days_remaining": 82
       },
       "error": null,
-      "issues": [
-        {
-          "severity": "info",
-          "title": "Redirecionamento detectado",
-          "detail": "Destino final: https://gabrielgonzagasilva.cloudflareaccess.com/cdn-cgi/access/login/aureum-hub-api.gabrielgonzagasilva.workers.dev?kid=fc9805ae25e6486c5e07fdfe2389c4afa236a189b4022d1112b46982a31ea538&meta=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjQ4MmYxNTFkMTA3NzE4OGU1ODc0N2VkODljN2YzNjU0MmRjNDcwYTgyYTZjOTJmOTQ2ZjI2MDg0NjVhYzMyOGEifQ.eyJ0eXBlIjoibWV0YSIsImF1ZCI6ImZjOTgwNWFlMjVlNjQ4NmM1ZTA3ZmRmZTIzODljNGFmYTIzNmExODliNDAyMmQxMTEyYjQ2OTgyYTMxZWE1MzgiLCJob3N0bmFtZSI6ImF1cmV1bS1odWItYXBpLmdhYnJpZWxnb256YWdhc2lsdmEud29ya2Vycy5kZXYiLCJyZWRpcmVjdF91cmwiOiIvYXBwLyIsInNlcnZpY2VfdG9rZW5fc3RhdHVzIjpmYWxzZSwiaXNfd2FycCI6ZmFsc2UsImlzX2dhdGV3YXkiOmZhbHNlLCJleHAiOjE3ODcwODEzOTIsIm5iZiI6MTc4NzA4MTA5MiwiaWF0IjoxNzg3MDgxMDkyLCJhdXRoX3N0YXR1cyI6Ik5PTkUiLCJtdGxzX2F1dGgiOnsiY2VydF9pc3N1ZXJfZG4iOiIiLCJjZXJ0X3NlcmlhbCI6IiIsImNlcnRfaXNzdWVyX3NraSI6IiIsImNlcnRfcHJlc2VudGVkIjpmYWxzZSwiY29tbW9uX25hbWUiOiIiLCJhdXRoX3N0YXR1cyI6Ik5PTkUifSwicmVhbF9jb3VudHJ5IjoiVVMiLCJhcHBfc2Vzc2lvbl9oYXNoIjoiOGMyNzcyMTI5NDliZTM1MjUyZjY4ZWJmYmMzM2UzMGJhOTY3N2I2NzZhNWMyOTRhYmMwMjk3M2U1MWE4MTQxMSJ9.QHThyhVOxwxokD9JqWKG6XihZy6-QKL-QoOx3pxpBVQY7wgnE1j54RmMtZ1fkAPUeo3EwqSDFMhWJlakdu8k97zst1VwZ24XWfYMlFq5DU5SbpND49Mscrv12hpTlO8t34bqw9mu5tkerSQuGI9ZRYagXiWtELs6KkDrQyulgQSCY1VHqnjEjR7LkOLzAu4rJDFqx-VPWHv4cSW45sOxMTdwjUvtv78szQk2MMWJGHhluwUpOM553fhaXQWB6_72LXM9uwvbU2JDDqbCixNVjoa37XkGbFPN3m9NH0gq082aylGfnGnLWTE_Ufs-EsXxFSQPm-bbsMnhfA9-tdGaXg&redirect_url=%2Fapp%2F"
-        }
-      ]
+      "issues": []
     },
     {
       "id": "aureum-site-comercial",
@@ -54,8 +48,8 @@
       "repo": "GabrielGonzagaSilva/Aureum-Site-Comercial",
       "status": "online",
       "status_code": 200,
-      "latency_ms": 123,
-      "checked_at": "2026-08-18T19:24:53.084324Z",
+      "latency_ms": 124,
+      "checked_at": "2026-08-18T19:26:12.074323Z",
       "final_url": "https://gabrielgonzagasilva.github.io/Aureum-Site-Comercial/",
       "ssl": {
         "expires_at": "2026-10-31T23:38:01Z",
@@ -71,8 +65,8 @@
       "repo": "GabrielGonzagaSilva/presentation-os",
       "status": "online",
       "status_code": 200,
-      "latency_ms": 141,
-      "checked_at": "2026-08-18T19:24:53.499846Z",
+      "latency_ms": 100,
+      "checked_at": "2026-08-18T19:26:12.563879Z",
       "final_url": "https://gabrielgonzagasilva.github.io/presentation-os/portfolio/",
       "ssl": {
         "expires_at": "2026-10-31T23:38:01Z",
