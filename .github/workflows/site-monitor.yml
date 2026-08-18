@@ -7,6 +7,7 @@ on:
   push:
     paths:
       - ".github/workflows/site-monitor.yml"
+      - "monitor/sites.json"
 
 permissions:
   contents: write
