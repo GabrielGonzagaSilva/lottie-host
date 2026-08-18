@@ -10,7 +10,7 @@
     {
       "id": "aureum-hub",
       "name": "Aureum Hub",
-      "url": "https://gabrielgonzagasilva.github.io/aureum-hub/",
+      "url": "https://aureum-hub-api.gabrielgonzagasilva.workers.dev/app/",
       "repo": "GabrielGonzagaSilva/aureum-hub",
       "manual_issues": []
     },
@@ -24,15 +24,9 @@
     {
       "id": "portfolio",
       "name": "Portfólio",
-      "url": "https://gabrielgonzagasilva.github.io/",
-      "repo": null,
-      "manual_issues": [
-        {
-          "severity": "info",
-          "title": "URL do portfólio configurada como GitHub Pages raiz",
-          "detail": "Se o portfólio estiver em outro caminho, altere apenas este endereço em sites.json."
-        }
-      ]
+      "url": "https://gabrielgonzagasilva.github.io/presentation-os/portfolio/",
+      "repo": "GabrielGonzagaSilva/presentation-os",
+      "manual_issues": []
     }
   ]
 }
