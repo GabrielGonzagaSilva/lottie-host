@@ -1,0 +1,11 @@
+{
+  "generated_at": null,
+  "overall": "degraded",
+  "counts": { "online": 0, "degraded": 4, "offline": 0 },
+  "sites": [
+    { "id": "quantolab", "name": "QuantoLab", "url": "https://quantolab.com.br/", "repo": "GabrielGonzagaSilva/QuantoLab", "status": "degraded", "status_code": null, "latency_ms": null, "checked_at": null, "final_url": "https://quantolab.com.br/", "ssl": null, "error": null, "issues": [{ "severity": "info", "title": "Aguardando primeira checagem automática", "detail": "O GitHub Actions substituirá este dado após a primeira execução." }] },
+    { "id": "aureum-hub", "name": "Aureum Hub", "url": "https://gabrielgonzagasilva.github.io/aureum-hub/", "repo": "GabrielGonzagaSilva/aureum-hub", "status": "degraded", "status_code": null, "latency_ms": null, "checked_at": null, "final_url": "https://gabrielgonzagasilva.github.io/aureum-hub/", "ssl": null, "error": null, "issues": [{ "severity": "info", "title": "Aguardando primeira checagem automática", "detail": "O GitHub Actions substituirá este dado após a primeira execução." }] },
+    { "id": "aureum-site-comercial", "name": "Aureum Site Comercial", "url": "https://gabrielgonzagasilva.github.io/Aureum-Site-Comercial/", "repo": "GabrielGonzagaSilva/Aureum-Site-Comercial", "status": "degraded", "status_code": null, "latency_ms": null, "checked_at": null, "final_url": "https://gabrielgonzagasilva.github.io/Aureum-Site-Comercial/", "ssl": null, "error": null, "issues": [{ "severity": "info", "title": "Aguardando primeira checagem automática", "detail": "O GitHub Actions substituirá este dado após a primeira execução." }] },
+    { "id": "portfolio", "name": "Portfólio", "url": "https://gabrielgonzagasilva.github.io/", "repo": null, "status": "degraded", "status_code": null, "latency_ms": null, "checked_at": null, "final_url": "https://gabrielgonzagasilva.github.io/", "ssl": null, "error": null, "issues": [{ "severity": "info", "title": "URL do portfólio pendente de validação automática", "detail": "Configurada provisoriamente como a raiz do GitHub Pages." }] }
+  ]
+}
