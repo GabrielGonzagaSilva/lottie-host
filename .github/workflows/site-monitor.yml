@@ -8,6 +8,7 @@ on:
     paths:
       - ".github/workflows/site-monitor.yml"
       - "monitor/sites.json"
+      - "monitor/monitor.py"
 
 permissions:
   contents: write
