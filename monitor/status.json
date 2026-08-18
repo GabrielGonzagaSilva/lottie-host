@@ -1,11 +1,96 @@
 {
-  "generated_at": null,
+  "generated_at": "2026-08-18T19:20:28.210183Z",
   "overall": "degraded",
-  "counts": { "online": 0, "degraded": 4, "offline": 0 },
+  "counts": {
+    "online": 2,
+    "degraded": 2,
+    "offline": 0
+  },
   "sites": [
-    { "id": "quantolab", "name": "QuantoLab", "url": "https://quantolab.com.br/", "repo": "GabrielGonzagaSilva/QuantoLab", "status": "degraded", "status_code": null, "latency_ms": null, "checked_at": null, "final_url": "https://quantolab.com.br/", "ssl": null, "error": null, "issues": [{ "severity": "info", "title": "Aguardando primeira checagem automática", "detail": "O GitHub Actions substituirá este dado após a primeira execução." }] },
-    { "id": "aureum-hub", "name": "Aureum Hub", "url": "https://gabrielgonzagasilva.github.io/aureum-hub/", "repo": "GabrielGonzagaSilva/aureum-hub", "status": "degraded", "status_code": null, "latency_ms": null, "checked_at": null, "final_url": "https://gabrielgonzagasilva.github.io/aureum-hub/", "ssl": null, "error": null, "issues": [{ "severity": "info", "title": "Aguardando primeira checagem automática", "detail": "O GitHub Actions substituirá este dado após a primeira execução." }] },
-    { "id": "aureum-site-comercial", "name": "Aureum Site Comercial", "url": "https://gabrielgonzagasilva.github.io/Aureum-Site-Comercial/", "repo": "GabrielGonzagaSilva/Aureum-Site-Comercial", "status": "degraded", "status_code": null, "latency_ms": null, "checked_at": null, "final_url": "https://gabrielgonzagasilva.github.io/Aureum-Site-Comercial/", "ssl": null, "error": null, "issues": [{ "severity": "info", "title": "Aguardando primeira checagem automática", "detail": "O GitHub Actions substituirá este dado após a primeira execução." }] },
-    { "id": "portfolio", "name": "Portfólio", "url": "https://gabrielgonzagasilva.github.io/", "repo": null, "status": "degraded", "status_code": null, "latency_ms": null, "checked_at": null, "final_url": "https://gabrielgonzagasilva.github.io/", "ssl": null, "error": null, "issues": [{ "severity": "info", "title": "URL do portfólio pendente de validação automática", "detail": "Configurada provisoriamente como a raiz do GitHub Pages." }] }
+    {
+      "id": "quantolab",
+      "name": "QuantoLab",
+      "url": "https://quantolab.com.br/",
+      "repo": "GabrielGonzagaSilva/QuantoLab",
+      "status": "online",
+      "status_code": 200,
+      "latency_ms": 279,
+      "checked_at": "2026-08-18T19:20:26.572236Z",
+      "final_url": "https://quantolab.com.br/",
+      "ssl": {
+        "expires_at": "2026-11-11T22:48:03Z",
+        "days_remaining": 85
+      },
+      "error": null,
+      "issues": []
+    },
+    {
+      "id": "aureum-hub",
+      "name": "Aureum Hub",
+      "url": "https://gabrielgonzagasilva.github.io/aureum-hub/",
+      "repo": "GabrielGonzagaSilva/aureum-hub",
+      "status": "degraded",
+      "status_code": 404,
+      "latency_ms": 132,
+      "checked_at": "2026-08-18T19:20:27.283090Z",
+      "final_url": "https://gabrielgonzagasilva.github.io/aureum-hub/",
+      "ssl": {
+        "expires_at": "2026-10-31T23:38:01Z",
+        "days_remaining": 74
+      },
+      "error": "HTTP 404: Not Found",
+      "issues": [
+        {
+          "severity": "warning",
+          "title": "HTTP 404",
+          "detail": "Not Found"
+        }
+      ]
+    },
+    {
+      "id": "aureum-site-comercial",
+      "name": "Aureum Site Comercial",
+      "url": "https://gabrielgonzagasilva.github.io/Aureum-Site-Comercial/",
+      "repo": "GabrielGonzagaSilva/Aureum-Site-Comercial",
+      "status": "online",
+      "status_code": 200,
+      "latency_ms": 72,
+      "checked_at": "2026-08-18T19:20:27.719571Z",
+      "final_url": "https://gabrielgonzagasilva.github.io/Aureum-Site-Comercial/",
+      "ssl": {
+        "expires_at": "2026-10-31T23:38:01Z",
+        "days_remaining": 74
+      },
+      "error": null,
+      "issues": []
+    },
+    {
+      "id": "portfolio",
+      "name": "Portfólio",
+      "url": "https://gabrielgonzagasilva.github.io/",
+      "repo": null,
+      "status": "degraded",
+      "status_code": 404,
+      "latency_ms": 91,
+      "checked_at": "2026-08-18T19:20:28.074633Z",
+      "final_url": "https://gabrielgonzagasilva.github.io/",
+      "ssl": {
+        "expires_at": "2026-10-31T23:38:01Z",
+        "days_remaining": 74
+      },
+      "error": "HTTP 404: Not Found",
+      "issues": [
+        {
+          "severity": "info",
+          "title": "URL do portfólio configurada como GitHub Pages raiz",
+          "detail": "Se o portfólio estiver em outro caminho, altere apenas este endereço em sites.json."
+        },
+        {
+          "severity": "warning",
+          "title": "HTTP 404",
+          "detail": "Not Found"
+        }
+      ]
+    }
   ]
 }
