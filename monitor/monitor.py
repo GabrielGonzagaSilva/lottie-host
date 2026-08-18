@@ -21,6 +21,14 @@ def now_iso():
     return datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
 
 
+def sanitize_url(url):
+    """Remove query string and fragment before persisting URLs in public status data."""
+    if not url:
+        return url
+    parsed = urlparse(url)
+    return parsed._replace(query="", fragment="").geturl()
+
+
 def check_ssl(url):
     parsed = urlparse(url)
     if parsed.scheme != "https" or not parsed.hostname:
@@ -100,8 +108,12 @@ def check_site(site):
         else:
             status = "offline"
 
-        if final_url.rstrip("/") != site["url"].rstrip("/"):
-            issues.append({"severity": "info", "title": "Redirecionamento detectado", "detail": f"Destino final: {final_url}"})
+        safe_final_url = sanitize_url(final_url)
+        final_host = (urlparse(safe_final_url).hostname or "").lower()
+        expected_access_redirect = final_host.endswith("cloudflareaccess.com")
+
+        if safe_final_url.rstrip("/") != site["url"].rstrip("/") and not expected_access_redirect:
+            issues.append({"severity": "info", "title": "Redirecionamento detectado", "detail": f"Destino final: {safe_final_url}"})
         if latency_ms >= SLOW_MS:
             issues.append({"severity": "warning", "title": "Resposta lenta", "detail": f"Tempo de resposta: {latency_ms} ms"})
         if status_code >= 400:
@@ -149,7 +161,7 @@ def check_site(site):
     return {
         "id": site["id"], "name": site["name"], "url": site["url"], "repo": site.get("repo"),
         "status": status, "status_code": status_code, "latency_ms": latency_ms,
-        "checked_at": checked_at, "final_url": final_url, "ssl": ssl_info,
+        "checked_at": checked_at, "final_url": sanitize_url(final_url), "ssl": ssl_info,
         "error": error, "issues": issues
     }
 
