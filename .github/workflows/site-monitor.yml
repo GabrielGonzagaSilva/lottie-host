@@ -1,0 +1,44 @@
+name: Monitorar sites
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/site-monitor.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar branch do monitor
+        uses: actions/checkout@v4
+        with:
+          ref: ops-monitor
+          fetch-depth: 0
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Verificar sites
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python monitor/monitor.py
+
+      - name: Publicar novo status
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add monitor/status.json
+          if git diff --cached --quiet; then
+            echo "Nenhuma mudança de status."
+            exit 0
+          fi
+          git commit -m "chore: atualiza status dos sites [skip ci]"
+          git push origin HEAD:ops-monitor
