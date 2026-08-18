@@ -15,10 +15,10 @@ jobs:
   monitor:
     runs-on: ubuntu-latest
     steps:
-      - name: Baixar branch do monitor
+      - name: Baixar repositório
         uses: actions/checkout@v4
         with:
-          ref: ops-monitor
+          ref: main
           fetch-depth: 0
 
       - name: Configurar Python
@@ -41,4 +41,4 @@ jobs:
             exit 0
           fi
           git commit -m "chore: atualiza status dos sites [skip ci]"
-          git push origin HEAD:ops-monitor
+          git push origin HEAD:main
