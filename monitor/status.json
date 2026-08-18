@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-18T19:22:21.170453Z",
-  "overall": "degraded",
+  "generated_at": "2026-08-18T19:24:53.973523Z",
+  "overall": "online",
   "counts": {
-    "online": 2,
-    "degraded": 2,
+    "online": 4,
+    "degraded": 0,
     "offline": 0
   },
   "sites": [
@@ -14,8 +14,8 @@
       "repo": "GabrielGonzagaSilva/QuantoLab",
       "status": "online",
       "status_code": 200,
-      "latency_ms": 373,
-      "checked_at": "2026-08-18T19:22:18.908194Z",
+      "latency_ms": 333,
+      "checked_at": "2026-08-18T19:24:51.300384Z",
       "final_url": "https://quantolab.com.br/",
       "ssl": {
         "expires_at": "2026-11-11T22:48:03Z",
@@ -27,23 +27,23 @@
     {
       "id": "aureum-hub",
       "name": "Aureum Hub",
-      "url": "https://gabrielgonzagasilva.github.io/aureum-hub/",
+      "url": "https://aureum-hub-api.gabrielgonzagasilva.workers.dev/app/",
       "repo": "GabrielGonzagaSilva/aureum-hub",
-      "status": "degraded",
-      "status_code": 404,
-      "latency_ms": 140,
-      "checked_at": "2026-08-18T19:22:19.761815Z",
-      "final_url": "https://gabrielgonzagasilva.github.io/aureum-hub/",
+      "status": "online",
+      "status_code": 200,
+      "latency_ms": 711,
+      "checked_at": "2026-08-18T19:24:52.097907Z",
+      "final_url": "https://gabrielgonzagasilva.cloudflareaccess.com/cdn-cgi/access/login/aureum-hub-api.gabrielgonzagasilva.workers.dev?kid=fc9805ae25e6486c5e07fdfe2389c4afa236a189b4022d1112b46982a31ea538&meta=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjQ4MmYxNTFkMTA3NzE4OGU1ODc0N2VkODljN2YzNjU0MmRjNDcwYTgyYTZjOTJmOTQ2ZjI2MDg0NjVhYzMyOGEifQ.eyJ0eXBlIjoibWV0YSIsImF1ZCI6ImZjOTgwNWFlMjVlNjQ4NmM1ZTA3ZmRmZTIzODljNGFmYTIzNmExODliNDAyMmQxMTEyYjQ2OTgyYTMxZWE1MzgiLCJob3N0bmFtZSI6ImF1cmV1bS1odWItYXBpLmdhYnJpZWxnb256YWdhc2lsdmEud29ya2Vycy5kZXYiLCJyZWRpcmVjdF91cmwiOiIvYXBwLyIsInNlcnZpY2VfdG9rZW5fc3RhdHVzIjpmYWxzZSwiaXNfd2FycCI6ZmFsc2UsImlzX2dhdGV3YXkiOmZhbHNlLCJleHAiOjE3ODcwODEzOTIsIm5iZiI6MTc4NzA4MTA5MiwiaWF0IjoxNzg3MDgxMDkyLCJhdXRoX3N0YXR1cyI6Ik5PTkUiLCJtdGxzX2F1dGgiOnsiY2VydF9pc3N1ZXJfZG4iOiIiLCJjZXJ0X3NlcmlhbCI6IiIsImNlcnRfaXNzdWVyX3NraSI6IiIsImNlcnRfcHJlc2VudGVkIjpmYWxzZSwiY29tbW9uX25hbWUiOiIiLCJhdXRoX3N0YXR1cyI6Ik5PTkUifSwicmVhbF9jb3VudHJ5IjoiVVMiLCJhcHBfc2Vzc2lvbl9oYXNoIjoiOGMyNzcyMTI5NDliZTM1MjUyZjY4ZWJmYmMzM2UzMGJhOTY3N2I2NzZhNWMyOTRhYmMwMjk3M2U1MWE4MTQxMSJ9.QHThyhVOxwxokD9JqWKG6XihZy6-QKL-QoOx3pxpBVQY7wgnE1j54RmMtZ1fkAPUeo3EwqSDFMhWJlakdu8k97zst1VwZ24XWfYMlFq5DU5SbpND49Mscrv12hpTlO8t34bqw9mu5tkerSQuGI9ZRYagXiWtELs6KkDrQyulgQSCY1VHqnjEjR7LkOLzAu4rJDFqx-VPWHv4cSW45sOxMTdwjUvtv78szQk2MMWJGHhluwUpOM553fhaXQWB6_72LXM9uwvbU2JDDqbCixNVjoa37XkGbFPN3m9NH0gq082aylGfnGnLWTE_Ufs-EsXxFSQPm-bbsMnhfA9-tdGaXg&redirect_url=%2Fapp%2F",
       "ssl": {
-        "expires_at": "2026-10-31T23:38:01Z",
-        "days_remaining": 74
+        "expires_at": "2026-11-09T13:37:04Z",
+        "days_remaining": 82
       },
-      "error": "HTTP 404: Not Found",
+      "error": null,
       "issues": [
         {
-          "severity": "warning",
-          "title": "HTTP 404",
-          "detail": "Not Found"
+          "severity": "info",
+          "title": "Redirecionamento detectado",
+          "detail": "Destino final: https://gabrielgonzagasilva.cloudflareaccess.com/cdn-cgi/access/login/aureum-hub-api.gabrielgonzagasilva.workers.dev?kid=fc9805ae25e6486c5e07fdfe2389c4afa236a189b4022d1112b46982a31ea538&meta=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjQ4MmYxNTFkMTA3NzE4OGU1ODc0N2VkODljN2YzNjU0MmRjNDcwYTgyYTZjOTJmOTQ2ZjI2MDg0NjVhYzMyOGEifQ.eyJ0eXBlIjoibWV0YSIsImF1ZCI6ImZjOTgwNWFlMjVlNjQ4NmM1ZTA3ZmRmZTIzODljNGFmYTIzNmExODliNDAyMmQxMTEyYjQ2OTgyYTMxZWE1MzgiLCJob3N0bmFtZSI6ImF1cmV1bS1odWItYXBpLmdhYnJpZWxnb256YWdhc2lsdmEud29ya2Vycy5kZXYiLCJyZWRpcmVjdF91cmwiOiIvYXBwLyIsInNlcnZpY2VfdG9rZW5fc3RhdHVzIjpmYWxzZSwiaXNfd2FycCI6ZmFsc2UsImlzX2dhdGV3YXkiOmZhbHNlLCJleHAiOjE3ODcwODEzOTIsIm5iZiI6MTc4NzA4MTA5MiwiaWF0IjoxNzg3MDgxMDkyLCJhdXRoX3N0YXR1cyI6Ik5PTkUiLCJtdGxzX2F1dGgiOnsiY2VydF9pc3N1ZXJfZG4iOiIiLCJjZXJ0X3NlcmlhbCI6IiIsImNlcnRfaXNzdWVyX3NraSI6IiIsImNlcnRfcHJlc2VudGVkIjpmYWxzZSwiY29tbW9uX25hbWUiOiIiLCJhdXRoX3N0YXR1cyI6Ik5PTkUifSwicmVhbF9jb3VudHJ5IjoiVVMiLCJhcHBfc2Vzc2lvbl9oYXNoIjoiOGMyNzcyMTI5NDliZTM1MjUyZjY4ZWJmYmMzM2UzMGJhOTY3N2I2NzZhNWMyOTRhYmMwMjk3M2U1MWE4MTQxMSJ9.QHThyhVOxwxokD9JqWKG6XihZy6-QKL-QoOx3pxpBVQY7wgnE1j54RmMtZ1fkAPUeo3EwqSDFMhWJlakdu8k97zst1VwZ24XWfYMlFq5DU5SbpND49Mscrv12hpTlO8t34bqw9mu5tkerSQuGI9ZRYagXiWtELs6KkDrQyulgQSCY1VHqnjEjR7LkOLzAu4rJDFqx-VPWHv4cSW45sOxMTdwjUvtv78szQk2MMWJGHhluwUpOM553fhaXQWB6_72LXM9uwvbU2JDDqbCixNVjoa37XkGbFPN3m9NH0gq082aylGfnGnLWTE_Ufs-EsXxFSQPm-bbsMnhfA9-tdGaXg&redirect_url=%2Fapp%2F"
         }
       ]
     },
@@ -54,8 +54,8 @@
       "repo": "GabrielGonzagaSilva/Aureum-Site-Comercial",
       "status": "online",
       "status_code": 200,
-      "latency_ms": 87,
-      "checked_at": "2026-08-18T19:22:20.254858Z",
+      "latency_ms": 123,
+      "checked_at": "2026-08-18T19:24:53.084324Z",
       "final_url": "https://gabrielgonzagasilva.github.io/Aureum-Site-Comercial/",
       "ssl": {
         "expires_at": "2026-10-31T23:38:01Z",
@@ -67,30 +67,19 @@
     {
       "id": "portfolio",
       "name": "Portfólio",
-      "url": "https://gabrielgonzagasilva.github.io/",
-      "repo": null,
-      "status": "degraded",
-      "status_code": 404,
-      "latency_ms": 104,
-      "checked_at": "2026-08-18T19:22:21.029164Z",
-      "final_url": "https://gabrielgonzagasilva.github.io/",
+      "url": "https://gabrielgonzagasilva.github.io/presentation-os/portfolio/",
+      "repo": "GabrielGonzagaSilva/presentation-os",
+      "status": "online",
+      "status_code": 200,
+      "latency_ms": 141,
+      "checked_at": "2026-08-18T19:24:53.499846Z",
+      "final_url": "https://gabrielgonzagasilva.github.io/presentation-os/portfolio/",
       "ssl": {
         "expires_at": "2026-10-31T23:38:01Z",
         "days_remaining": 74
       },
-      "error": "HTTP 404: Not Found",
-      "issues": [
-        {
-          "severity": "info",
-          "title": "URL do portfólio configurada como GitHub Pages raiz",
-          "detail": "Se o portfólio estiver em outro caminho, altere apenas este endereço em sites.json."
-        },
-        {
-          "severity": "warning",
-          "title": "HTTP 404",
-          "detail": "Not Found"
-        }
-      ]
+      "error": null,
+      "issues": []
     }
   ]
 }
