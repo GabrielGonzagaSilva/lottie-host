@@ -1,0 +1,38 @@
+{
+  "sites": [
+    {
+      "id": "quantolab",
+      "name": "QuantoLab",
+      "url": "https://quantolab.com.br/",
+      "repo": "GabrielGonzagaSilva/QuantoLab",
+      "manual_issues": []
+    },
+    {
+      "id": "aureum-hub",
+      "name": "Aureum Hub",
+      "url": "https://gabrielgonzagasilva.github.io/aureum-hub/",
+      "repo": "GabrielGonzagaSilva/aureum-hub",
+      "manual_issues": []
+    },
+    {
+      "id": "aureum-site-comercial",
+      "name": "Aureum Site Comercial",
+      "url": "https://gabrielgonzagasilva.github.io/Aureum-Site-Comercial/",
+      "repo": "GabrielGonzagaSilva/Aureum-Site-Comercial",
+      "manual_issues": []
+    },
+    {
+      "id": "portfolio",
+      "name": "Portfólio",
+      "url": "https://gabrielgonzagasilva.github.io/",
+      "repo": null,
+      "manual_issues": [
+        {
+          "severity": "info",
+          "title": "URL do portfólio configurada como GitHub Pages raiz",
+          "detail": "Se o portfólio estiver em outro caminho, altere apenas este endereço em sites.json."
+        }
+      ]
+    }
+  ]
+}
