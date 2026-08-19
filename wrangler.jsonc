@@ -1,0 +1,6 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "gabriel-ops-monitor",
+  "pages_build_output_dir": "./monitor",
+  "compatibility_date": "2026-08-18"
+}
