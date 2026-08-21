@@ -33,14 +33,14 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python monitor/monitor.py
 
-      - name: Publicar novo status
+      - name: Publicar status e histórico
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add monitor/status.json
+          git add monitor/status.json monitor/history.json
           if git diff --cached --quiet; then
-            echo "Nenhuma mudança de status."
+            echo "Nenhuma mudança de monitoramento."
             exit 0
           fi
-          git commit -m "chore: atualiza status dos sites [skip ci]"
+          git commit -m "chore: atualiza monitoramento [skip ci]"
           git push origin HEAD:main
