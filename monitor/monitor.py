@@ -4,7 +4,7 @@ import os
 import socket
 import ssl
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlparse
@@ -13,12 +13,21 @@ from urllib.request import Request, urlopen
 BASE_DIR = Path(__file__).resolve().parent
 CONFIG_PATH = BASE_DIR / "sites.json"
 OUTPUT_PATH = BASE_DIR / "status.json"
+HISTORY_PATH = BASE_DIR / "history.json"
 TIMEOUT = 12
 SLOW_MS = 3000
+HISTORY_RETENTION_DAYS = 30
 
 
 def now_iso():
     return datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+
+
+def parse_iso(value):
+    try:
+        return datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except Exception:
+        return None
 
 
 def sanitize_url(url):
@@ -166,6 +175,45 @@ def check_site(site):
     }
 
 
+def update_history(results, generated_at):
+    history = {
+        "generated_at": generated_at,
+        "retention_days": HISTORY_RETENTION_DAYS,
+        "sites": {}
+    }
+
+    if HISTORY_PATH.exists():
+        try:
+            current = json.loads(HISTORY_PATH.read_text(encoding="utf-8"))
+            if isinstance(current, dict) and isinstance(current.get("sites"), dict):
+                history["sites"] = current["sites"]
+        except Exception:
+            pass
+
+    cutoff = datetime.now(timezone.utc) - timedelta(days=HISTORY_RETENTION_DAYS)
+
+    for item in results:
+        site_id = item["id"]
+        samples = history["sites"].get(site_id, [])
+        samples.append({
+            "checked_at": item["checked_at"],
+            "status": item["status"],
+            "status_code": item["status_code"],
+            "latency_ms": item["latency_ms"]
+        })
+
+        pruned = []
+        for sample in samples:
+            sample_time = parse_iso(sample.get("checked_at", ""))
+            if sample_time and sample_time >= cutoff:
+                pruned.append(sample)
+
+        history["sites"][site_id] = pruned
+
+    history["generated_at"] = generated_at
+    HISTORY_PATH.write_text(json.dumps(history, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
 def main():
     config = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
     results = [check_site(site) for site in config["sites"]]
@@ -175,8 +223,10 @@ def main():
         "offline": sum(1 for item in results if item["status"] == "offline")
     }
     overall = "offline" if counts["offline"] else ("degraded" if counts["degraded"] else "online")
-    payload = {"generated_at": now_iso(), "overall": overall, "counts": counts, "sites": results}
+    generated_at = now_iso()
+    payload = {"generated_at": generated_at, "overall": overall, "counts": counts, "sites": results}
     OUTPUT_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    update_history(results, generated_at)
     print(json.dumps(payload, ensure_ascii=False, indent=2))
 
 
