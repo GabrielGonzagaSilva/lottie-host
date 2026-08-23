@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T23:23:22.153486Z",
+  "generated_at": "2026-08-23T23:46:33.798495Z",
   "overall": "online",
   "counts": {
     "online": 4,
@@ -14,8 +14,8 @@
       "repo": "GabrielGonzagaSilva/QuantoLab",
       "status": "online",
       "status_code": 200,
-      "latency_ms": 301,
-      "checked_at": "2026-08-23T23:23:19.720231Z",
+      "latency_ms": 225,
+      "checked_at": "2026-08-23T23:46:31.451542Z",
       "final_url": "https://quantolab.com.br/",
       "ssl": {
         "expires_at": "2026-11-11T22:48:03Z",
@@ -31,8 +31,8 @@
       "repo": "GabrielGonzagaSilva/aureum-hub",
       "status": "online",
       "status_code": 200,
-      "latency_ms": 523,
-      "checked_at": "2026-08-23T23:23:20.470541Z",
+      "latency_ms": 736,
+      "checked_at": "2026-08-23T23:46:32.198868Z",
       "final_url": "https://gabrielgonzagasilva.cloudflareaccess.com/cdn-cgi/access/login/aureum-hub-api.gabrielgonzagasilva.workers.dev",
       "ssl": {
         "expires_at": "2026-11-09T13:37:04Z",
@@ -48,12 +48,12 @@
       "repo": "GabrielGonzagaSilva/Aureum-Site-Comercial",
       "status": "online",
       "status_code": 200,
-      "latency_ms": 152,
-      "checked_at": "2026-08-23T23:23:21.249822Z",
+      "latency_ms": 102,
+      "checked_at": "2026-08-23T23:46:33.132921Z",
       "final_url": "https://gabrielgonzagasilva.github.io/Aureum-Site-Comercial/",
       "ssl": {
         "expires_at": "2026-10-31T23:38:01Z",
-        "days_remaining": 69
+        "days_remaining": 68
       },
       "error": null,
       "issues": []
@@ -65,12 +65,12 @@
       "repo": "GabrielGonzagaSilva/presentation-os",
       "status": "online",
       "status_code": 200,
-      "latency_ms": 118,
-      "checked_at": "2026-08-23T23:23:21.743419Z",
+      "latency_ms": 73,
+      "checked_at": "2026-08-23T23:46:33.471177Z",
       "final_url": "https://gabrielgonzagasilva.github.io/presentation-os/portfolio/",
       "ssl": {
         "expires_at": "2026-10-31T23:38:01Z",
-        "days_remaining": 69
+        "days_remaining": 68
       },
       "error": null,
       "issues": []
