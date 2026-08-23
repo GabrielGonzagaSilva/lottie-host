@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T08:52:28.122445Z",
+  "generated_at": "2026-08-23T09:29:04.500169Z",
   "overall": "online",
   "counts": {
     "online": 4,
@@ -14,8 +14,8 @@
       "repo": "GabrielGonzagaSilva/QuantoLab",
       "status": "online",
       "status_code": 200,
-      "latency_ms": 191,
-      "checked_at": "2026-08-23T08:52:26.456931Z",
+      "latency_ms": 188,
+      "checked_at": "2026-08-23T09:29:02.604122Z",
       "final_url": "https://quantolab.com.br/",
       "ssl": {
         "expires_at": "2026-11-11T22:48:03Z",
@@ -31,8 +31,8 @@
       "repo": "GabrielGonzagaSilva/aureum-hub",
       "status": "online",
       "status_code": 200,
-      "latency_ms": 441,
-      "checked_at": "2026-08-23T08:52:27.028263Z",
+      "latency_ms": 407,
+      "checked_at": "2026-08-23T09:29:03.170885Z",
       "final_url": "https://gabrielgonzagasilva.cloudflareaccess.com/cdn-cgi/access/login/aureum-hub-api.gabrielgonzagasilva.workers.dev",
       "ssl": {
         "expires_at": "2026-11-09T13:37:04Z",
@@ -48,8 +48,8 @@
       "repo": "GabrielGonzagaSilva/Aureum-Site-Comercial",
       "status": "online",
       "status_code": 200,
-      "latency_ms": 47,
-      "checked_at": "2026-08-23T08:52:27.652009Z",
+      "latency_ms": 62,
+      "checked_at": "2026-08-23T09:29:03.785734Z",
       "final_url": "https://gabrielgonzagasilva.github.io/Aureum-Site-Comercial/",
       "ssl": {
         "expires_at": "2026-10-31T23:38:01Z",
@@ -65,8 +65,8 @@
       "repo": "GabrielGonzagaSilva/presentation-os",
       "status": "online",
       "status_code": 200,
-      "latency_ms": 51,
-      "checked_at": "2026-08-23T08:52:27.871953Z",
+      "latency_ms": 56,
+      "checked_at": "2026-08-23T09:29:04.204946Z",
       "final_url": "https://gabrielgonzagasilva.github.io/presentation-os/portfolio/",
       "ssl": {
         "expires_at": "2026-10-31T23:38:01Z",
