@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T05:45:08.038182Z",
+  "generated_at": "2026-09-01T10:31:19.102648Z",
   "retention_days": 30,
   "sites": {
     "quantolab": [
@@ -1310,6 +1310,12 @@
         "status": "online",
         "status_code": 200,
         "latency_ms": 250
+      },
+      {
+        "checked_at": "2026-09-01T10:31:16.763307Z",
+        "status": "online",
+        "status_code": 200,
+        "latency_ms": 259
       }
     ],
     "aureum-hub": [
@@ -2620,6 +2626,12 @@
         "status": "online",
         "status_code": 200,
         "latency_ms": 748
+      },
+      {
+        "checked_at": "2026-09-01T10:31:17.375290Z",
+        "status": "online",
+        "status_code": 200,
+        "latency_ms": 696
       }
     ],
     "aureum-site-comercial": [
@@ -3930,6 +3942,12 @@
         "status": "online",
         "status_code": 200,
         "latency_ms": 177
+      },
+      {
+        "checked_at": "2026-09-01T10:31:18.340077Z",
+        "status": "online",
+        "status_code": 200,
+        "latency_ms": 141
       }
     ],
     "portfolio": [
@@ -5240,6 +5258,12 @@
         "status": "online",
         "status_code": 200,
         "latency_ms": 136
+      },
+      {
+        "checked_at": "2026-09-01T10:31:18.693410Z",
+        "status": "online",
+        "status_code": 200,
+        "latency_ms": 133
       }
     ]
   }
