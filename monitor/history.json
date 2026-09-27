@@ -1,14 +1,8 @@
 {
-  "generated_at": "2026-09-27T00:33:11.401876Z",
+  "generated_at": "2026-09-27T05:43:08.071608Z",
   "retention_days": 30,
   "sites": {
     "quantolab": [
-      {
-        "checked_at": "2026-08-28T05:14:25.019095Z",
-        "status": "online",
-        "status_code": 200,
-        "latency_ms": 299
-      },
       {
         "checked_at": "2026-08-28T17:28:41.481328Z",
         "status": "online",
@@ -1178,15 +1172,15 @@
         "status": "online",
         "status_code": 200,
         "latency_ms": 365
+      },
+      {
+        "checked_at": "2026-09-27T05:43:05.693624Z",
+        "status": "online",
+        "status_code": 200,
+        "latency_ms": 331
       }
     ],
     "aureum-hub": [
-      {
-        "checked_at": "2026-08-28T05:14:25.776605Z",
-        "status": "online",
-        "status_code": 200,
-        "latency_ms": 774
-      },
       {
         "checked_at": "2026-08-28T17:28:42.372928Z",
         "status": "online",
@@ -2356,15 +2350,15 @@
         "status": "online",
         "status_code": 200,
         "latency_ms": 625
+      },
+      {
+        "checked_at": "2026-09-27T05:43:06.476117Z",
+        "status": "online",
+        "status_code": 200,
+        "latency_ms": 600
       }
     ],
     "aureum-site-comercial": [
-      {
-        "checked_at": "2026-08-28T05:14:26.849359Z",
-        "status": "online",
-        "status_code": 200,
-        "latency_ms": 175
-      },
       {
         "checked_at": "2026-08-28T17:28:43.673264Z",
         "status": "online",
@@ -3534,15 +3528,15 @@
         "status": "online",
         "status_code": 200,
         "latency_ms": 105
+      },
+      {
+        "checked_at": "2026-09-27T05:43:07.303353Z",
+        "status": "online",
+        "status_code": 200,
+        "latency_ms": 127
       }
     ],
     "portfolio": [
-      {
-        "checked_at": "2026-08-28T05:14:27.315698Z",
-        "status": "online",
-        "status_code": 200,
-        "latency_ms": 324
-      },
       {
         "checked_at": "2026-08-28T17:28:44.077030Z",
         "status": "online",
@@ -4712,6 +4706,12 @@
         "status": "online",
         "status_code": 200,
         "latency_ms": 77
+      },
+      {
+        "checked_at": "2026-09-27T05:43:07.666026Z",
+        "status": "online",
+        "status_code": 200,
+        "latency_ms": 110
       }
     ]
   }
