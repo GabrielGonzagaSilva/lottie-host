@@ -14,24 +14,21 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: "chocolate-pages"
   cancel-in-progress: true
 
 jobs:
   setup-pages:
     runs-on: ubuntu-latest
     steps:
-      - name: Configure and enable Pages
+      - name: Configure Pages
         uses: actions/configure-pages@v5
         with:
           enablement: true
 
-  deploy:
+  build:
     needs: setup-pages
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -41,6 +38,14 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./chocolate-com-pimenta
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: chocolate-pages-temp
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Deploy Pages
         id: deployment
         uses: actions/deploy-pages@v4
