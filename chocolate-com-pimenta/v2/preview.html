@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#17110f" />
+  <title>Chocolate com Pimenta — Preview jogável</title>
+  <meta name="description" content="Preview direto da camada de jogo do Chocolate com Pimenta V2." />
+  <link rel="stylesheet" href="./styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/phaser@4.2.1/dist/phaser.min.js"></script>
+  <style>
+    body{overflow-x:hidden}.preview-shell{max-width:1500px;margin:0 auto;padding:12px}.preview-note{max-width:1500px;margin:0 auto;padding:0 12px 12px}.preview-note>div{background:#fff4d7;color:#5d4618;border:1px solid #d9bb68;border-radius:10px;padding:9px 12px;font-size:12px}.preview-top{display:flex;justify-content:space-between;gap:12px;align-items:center;background:#231914;border:1px solid #50382e;border-radius:14px;padding:10px 12px;margin-bottom:10px}.preview-title small{display:block;color:#aa978e}.preview-title b{font-size:17px}.preview-pills{display:flex;gap:7px;flex-wrap:wrap;justify-content:center}.preview-actions{display:flex;align-items:center;gap:8px}.preview-back{color:#fff;text-decoration:none;border:1px solid #5b4137;border-radius:9px;padding:8px 10px;font-size:11px;font-weight:800}@media(max-width:760px){.preview-top{align-items:flex-start;flex-direction:column}.preview-actions{width:100%;justify-content:space-between}}
+  </style>
+</head>
+<body>
+  <main class="preview-shell">
+    <div class="preview-top">
+      <div class="preview-title"><small id="phase">PRODUÇÃO · PREVIEW</small><b>Você · Fábrica A</b></div>
+      <div class="preview-pills"><span class="pill" id="score">0 pts</span><span class="pill" id="attempts">12/50 tentativas</span><span class="pill" id="stock">Barras 63 · Fitas 44</span></div>
+      <div class="preview-actions"><a class="preview-back" href="./">← Voltar à V2</a><div class="timer"><small>PREVIEW JOGÁVEL</small><b id="clock">12:00</b></div></div>
+    </div>
+    <section class="game-wrap"><div id="game"></div><div class="game-help"><span><span class="kbd">WASD</span> / setas · mover</span><span><span class="kbd">E</span> / <span class="kbd">ESPAÇO</span> · pegar, soltar, usar estação</span><span><span class="kbd">SEGURE E</span> · montagem</span><span><span class="kbd">SHIFT</span> · impulso</span><span><span class="kbd">Q</span> · lançar</span></div></section>
+  </main>
+  <div class="preview-note"><div><b>Preview isolado:</b> esta tela já abre como se a rodada estivesse em andamento. Ana e Caio simulam colegas da mesma equipe; não é necessário criar sessão nem selecionar grupos.</div></div>
+  <script src="./game.js"></script>
+  <script src="./preview.js"></script>
+</body>
+</html>
