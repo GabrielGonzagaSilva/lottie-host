@@ -1,20 +1,8 @@
 {
-  "generated_at": "2026-10-01T08:49:52.441205Z",
+  "generated_at": "2026-10-01T15:46:07.022432Z",
   "retention_days": 30,
   "sites": {
     "quantolab": [
-      {
-        "checked_at": "2026-09-01T10:31:16.763307Z",
-        "status": "online",
-        "status_code": 200,
-        "latency_ms": 259
-      },
-      {
-        "checked_at": "2026-09-01T15:10:15.938627Z",
-        "status": "online",
-        "status_code": 200,
-        "latency_ms": 364
-      },
       {
         "checked_at": "2026-09-01T18:37:29.608010Z",
         "status": "online",
@@ -1178,21 +1166,15 @@
         "status": "online",
         "status_code": 200,
         "latency_ms": 197
+      },
+      {
+        "checked_at": "2026-10-01T15:46:03.371321Z",
+        "status": "online",
+        "status_code": 200,
+        "latency_ms": 366
       }
     ],
     "aureum-hub": [
-      {
-        "checked_at": "2026-09-01T10:31:17.375290Z",
-        "status": "online",
-        "status_code": 200,
-        "latency_ms": 696
-      },
-      {
-        "checked_at": "2026-09-01T15:10:16.989099Z",
-        "status": "online",
-        "status_code": 200,
-        "latency_ms": 825
-      },
       {
         "checked_at": "2026-09-01T18:37:30.525647Z",
         "status": "online",
@@ -2356,21 +2338,15 @@
         "status": "online",
         "status_code": 200,
         "latency_ms": 525
+      },
+      {
+        "checked_at": "2026-10-01T15:46:04.502887Z",
+        "status": "online",
+        "status_code": 200,
+        "latency_ms": 925
       }
     ],
     "aureum-site-comercial": [
-      {
-        "checked_at": "2026-09-01T10:31:18.340077Z",
-        "status": "online",
-        "status_code": 200,
-        "latency_ms": 141
-      },
-      {
-        "checked_at": "2026-09-01T15:10:18.028364Z",
-        "status": "online",
-        "status_code": 200,
-        "latency_ms": 572
-      },
       {
         "checked_at": "2026-09-01T18:37:31.612882Z",
         "status": "online",
@@ -3534,21 +3510,15 @@
         "status": "online",
         "status_code": 200,
         "latency_ms": 60
+      },
+      {
+        "checked_at": "2026-10-01T15:46:05.799904Z",
+        "status": "online",
+        "status_code": 200,
+        "latency_ms": 176
       }
     ],
     "portfolio": [
-      {
-        "checked_at": "2026-09-01T10:31:18.693410Z",
-        "status": "online",
-        "status_code": 200,
-        "latency_ms": 133
-      },
-      {
-        "checked_at": "2026-09-01T15:10:18.921439Z",
-        "status": "online",
-        "status_code": 200,
-        "latency_ms": 103
-      },
       {
         "checked_at": "2026-09-01T18:37:32.039713Z",
         "status": "online",
@@ -4712,6 +4682,12 @@
         "status": "online",
         "status_code": 200,
         "latency_ms": 54
+      },
+      {
+        "checked_at": "2026-10-01T15:46:06.426274Z",
+        "status": "online",
+        "status_code": 200,
+        "latency_ms": 128
       }
     ]
   }
