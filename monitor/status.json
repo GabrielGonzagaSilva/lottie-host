@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T15:46:44.344291Z",
+  "generated_at": "2026-11-10T21:27:54.893753Z",
   "overall": "online",
   "counts": {
     "online": 4,
@@ -14,12 +14,12 @@
       "repo": "GabrielGonzagaSilva/QuantoLab",
       "status": "online",
       "status_code": 200,
-      "latency_ms": 270,
-      "checked_at": "2026-11-10T15:46:41.553692Z",
+      "latency_ms": 343,
+      "checked_at": "2026-11-10T21:27:51.273636Z",
       "final_url": "https://quantolab.com.br/",
       "ssl": {
         "expires_at": "2027-01-09T20:54:40Z",
-        "days_remaining": 60
+        "days_remaining": 59
       },
       "error": null,
       "issues": []
@@ -31,12 +31,12 @@
       "repo": "GabrielGonzagaSilva/aureum-hub",
       "status": "online",
       "status_code": 200,
-      "latency_ms": 795,
-      "checked_at": "2026-11-10T15:46:42.367996Z",
+      "latency_ms": 886,
+      "checked_at": "2026-11-10T21:27:52.301237Z",
       "final_url": "https://gabrielgonzagasilva.cloudflareaccess.com/cdn-cgi/access/login/aureum-hub-api.gabrielgonzagasilva.workers.dev",
       "ssl": {
         "expires_at": "2027-01-07T17:35:45Z",
-        "days_remaining": 58
+        "days_remaining": 57
       },
       "error": null,
       "issues": []
@@ -48,8 +48,8 @@
       "repo": "GabrielGonzagaSilva/Aureum-Site-Comercial",
       "status": "online",
       "status_code": 200,
-      "latency_ms": 49,
-      "checked_at": "2026-11-10T15:46:43.488968Z",
+      "latency_ms": 139,
+      "checked_at": "2026-11-10T21:27:53.603602Z",
       "final_url": "https://gabrielgonzagasilva.github.io/Aureum-Site-Comercial/",
       "ssl": {
         "expires_at": "2026-12-29T23:44:45Z",
@@ -65,8 +65,8 @@
       "repo": "GabrielGonzagaSilva/presentation-os",
       "status": "online",
       "status_code": 200,
-      "latency_ms": 62,
-      "checked_at": "2026-11-10T15:46:43.943064Z",
+      "latency_ms": 278,
+      "checked_at": "2026-11-10T21:27:54.206789Z",
       "final_url": "https://gabrielgonzagasilva.github.io/presentation-os/portfolio/",
       "ssl": {
         "expires_at": "2026-12-29T23:44:45Z",
