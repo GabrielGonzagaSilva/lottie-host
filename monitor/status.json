@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T16:08:34.869368Z",
+  "generated_at": "2026-11-11T22:41:04.903321Z",
   "overall": "online",
   "counts": {
     "online": 4,
@@ -14,12 +14,12 @@
       "repo": "GabrielGonzagaSilva/QuantoLab",
       "status": "online",
       "status_code": 200,
-      "latency_ms": 453,
-      "checked_at": "2026-11-11T16:08:31.177865Z",
+      "latency_ms": 352,
+      "checked_at": "2026-11-11T22:41:01.552100Z",
       "final_url": "https://quantolab.com.br/",
       "ssl": {
         "expires_at": "2027-01-09T20:54:40Z",
-        "days_remaining": 59
+        "days_remaining": 58
       },
       "error": null,
       "issues": []
@@ -31,12 +31,12 @@
       "repo": "GabrielGonzagaSilva/aureum-hub",
       "status": "online",
       "status_code": 200,
-      "latency_ms": 861,
-      "checked_at": "2026-11-11T16:08:32.464321Z",
+      "latency_ms": 704,
+      "checked_at": "2026-11-11T22:41:02.560683Z",
       "final_url": "https://gabrielgonzagasilva.cloudflareaccess.com/cdn-cgi/access/login/aureum-hub-api.gabrielgonzagasilva.workers.dev",
       "ssl": {
         "expires_at": "2027-01-07T17:35:45Z",
-        "days_remaining": 57
+        "days_remaining": 56
       },
       "error": null,
       "issues": []
@@ -48,8 +48,8 @@
       "repo": "GabrielGonzagaSilva/Aureum-Site-Comercial",
       "status": "online",
       "status_code": 200,
-      "latency_ms": 152,
-      "checked_at": "2026-11-11T16:08:33.765478Z",
+      "latency_ms": 153,
+      "checked_at": "2026-11-11T22:41:03.647956Z",
       "final_url": "https://gabrielgonzagasilva.github.io/Aureum-Site-Comercial/",
       "ssl": {
         "expires_at": "2026-12-29T23:44:45Z",
@@ -65,8 +65,8 @@
       "repo": "GabrielGonzagaSilva/presentation-os",
       "status": "online",
       "status_code": 200,
-      "latency_ms": 132,
-      "checked_at": "2026-11-11T16:08:34.334805Z",
+      "latency_ms": 266,
+      "checked_at": "2026-11-11T22:41:04.237804Z",
       "final_url": "https://gabrielgonzagasilva.github.io/presentation-os/portfolio/",
       "ssl": {
         "expires_at": "2026-12-29T23:44:45Z",
