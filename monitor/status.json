@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T16:10:04.271893Z",
+  "generated_at": "2026-11-26T00:20:56.675240Z",
   "overall": "online",
   "counts": {
     "online": 4,
@@ -14,12 +14,12 @@
       "repo": "GabrielGonzagaSilva/QuantoLab",
       "status": "online",
       "status_code": 200,
-      "latency_ms": 365,
-      "checked_at": "2026-11-25T16:10:01.474102Z",
+      "latency_ms": 212,
+      "checked_at": "2026-11-26T00:20:53.760651Z",
       "final_url": "https://quantolab.com.br/",
       "ssl": {
         "expires_at": "2027-01-09T20:54:40Z",
-        "days_remaining": 45
+        "days_remaining": 44
       },
       "error": null,
       "issues": []
@@ -31,12 +31,12 @@
       "repo": "GabrielGonzagaSilva/aureum-hub",
       "status": "online",
       "status_code": 200,
-      "latency_ms": 649,
-      "checked_at": "2026-11-25T16:10:02.431366Z",
+      "latency_ms": 713,
+      "checked_at": "2026-11-26T00:20:54.456281Z",
       "final_url": "https://gabrielgonzagasilva.cloudflareaccess.com/cdn-cgi/access/login/aureum-hub-api.gabrielgonzagasilva.workers.dev",
       "ssl": {
         "expires_at": "2027-01-07T17:35:45Z",
-        "days_remaining": 43
+        "days_remaining": 42
       },
       "error": null,
       "issues": []
@@ -48,12 +48,12 @@
       "repo": "GabrielGonzagaSilva/Aureum-Site-Comercial",
       "status": "online",
       "status_code": 200,
-      "latency_ms": 60,
-      "checked_at": "2026-11-25T16:10:03.344927Z",
+      "latency_ms": 102,
+      "checked_at": "2026-11-26T00:20:55.412647Z",
       "final_url": "https://gabrielgonzagasilva.github.io/Aureum-Site-Comercial/",
       "ssl": {
         "expires_at": "2026-12-29T23:44:45Z",
-        "days_remaining": 34
+        "days_remaining": 33
       },
       "error": null,
       "issues": []
@@ -65,12 +65,12 @@
       "repo": "GabrielGonzagaSilva/presentation-os",
       "status": "online",
       "status_code": 200,
-      "latency_ms": 55,
-      "checked_at": "2026-11-25T16:10:03.763583Z",
+      "latency_ms": 391,
+      "checked_at": "2026-11-26T00:20:55.919531Z",
       "final_url": "https://gabrielgonzagasilva.github.io/presentation-os/portfolio/",
       "ssl": {
         "expires_at": "2026-12-29T23:44:45Z",
-        "days_remaining": 34
+        "days_remaining": 33
       },
       "error": null,
       "issues": []
